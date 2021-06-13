@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(251, 246, 255);
+    padding: 30px;
+}
+
+p {
+    color: rgb(33, 0, 39);
+    font-family: PingFang SC;
+    font-size: 20px;
+}
+
+footer{margin-top: 20px;}
+
+.divtogo {
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.right {
+    height: 406px;
+    z-index: 20;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    height: 50px;
+    color: white;
+    background: linear-gradient(348deg, #865fbb 2.85%, #e4c8fb), #fff;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.card_group {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 30px;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+}
+
+.tips {
+    width: 40%;
+    background:linear-gradient(348deg, #865fbb 2.85%, #e4c8fb), #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 0px;
+}
