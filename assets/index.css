@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(250, 244, 255);
+    padding: 30px;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+p {
+    color: rgb(33, 0, 39);
+    font-family: PingFang SC;
+    font-size: 20px;
+}
+
+.divtogo {
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.right {
+    height: 406px;
+    z-index: 20;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    height: 50px;
+    color: white;
+    box-shadow: #00000025 0 0 15px;
+    background: linear-gradient(96.15deg, #526efa 2.85%, #7a90ff), #fff;
+    font-size: 16px;
+    margin-right: 20px;
+    width: 10vw;
+}
+
+.unactive-button {
+    background: white;
+    border: 2px solid rgb(65, 0, 119);
+    color: rgb(37, 0, 68);
+}
+
+.card_group {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 30px;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+    box-shadow: #00000005 0 0 15px;
+}
+
+.tips {
+    width: 20vw;
+    background-color: rgb(109, 133, 253);
+    box-shadow: #00000030 0 0 15px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+.preview {
+    position: absolute;
+    top: 10vh;
+    overflow: hidden;
+    height: 80vh;
+    left: 40vw;
+    border-radius: 3px;
+    box-shadow: #00000030 0 0 15px;
+}
